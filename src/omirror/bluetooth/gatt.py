@@ -678,7 +678,11 @@ class AktSetData(Characteristic):
             except ValueError:
                 log.warning(
                     "AktSetData: invalid date %04d-%02d-%02d %02d:%02d, dropping packet",
-                    year, month, day, hour, minute,
+                    year,
+                    month,
+                    day,
+                    hour,
+                    minute,
                 )
                 self._akt_date = None
                 return
@@ -815,7 +819,9 @@ class LanguageChar(Characteristic):
     def WriteValue(self, value, options):
         lang = "".join(chr(b) for b in value if isinstance(b, dbus.Byte)).strip().lower()
         if lang not in self._SUPPORTED:
-            log.warning("LanguageChar: unsupported language %r (supported: %s)", lang, self._SUPPORTED)
+            log.warning(
+                "LanguageChar: unsupported language %r (supported: %s)", lang, self._SUPPORTED
+            )
             return
         config.set("language", lang)
         i18n_setup(lang)
@@ -845,7 +851,7 @@ class DeviceNameChar(Characteristic):
         if not name:
             log.warning("DeviceNameChar: received empty name, ignoring")
             return
-        config.set("device_name", name[:self._MAX_LEN])
+        config.set("device_name", name[: self._MAX_LEN])
         log.info("Device name changed to %r (restart BLE server to advertise)", name)
 
 
