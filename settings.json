@@ -1,0 +1,19 @@
+{
+  "name": "OMirror",
+  "weather_city": "Växjö",
+  "weather_country": "SE",
+  "weather_api": "",
+  "rotation": 0,
+  "pota_delay": 5,
+  "quote_delay": 5,
+  "pota_quote_show": 0,
+  "autosleep": 0,
+  "autosleep_time": "1:44,1:47",
+  "news_max": 5,
+  "news_rss": "http://www.aftonbladet.se/nyheter/rss.xml",
+  "rgb_mode": 2,
+  "rgb_single": "255,0,0",
+  "rgb_flash_sequence": "255,207,0:0,68,255:0,215,255:131,0,255",
+  "rgb_flash_delay": 1300,
+  "rgb_fade_delay": 0
+}

@@ -1,0 +1,103 @@
+# Swedish translations for OMirror
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+
+# Weather descriptions
+msgid "Clear sky"
+msgstr "Klart"
+
+msgid "Few clouds"
+msgstr "Lite molnigt"
+
+msgid "Scattered clouds"
+msgstr "Halvklart"
+
+msgid "Cloudy"
+msgstr "Mulet"
+
+msgid "Drizzle"
+msgstr "Duggregn"
+
+msgid "Light rain"
+msgstr "Lätt regn"
+
+msgid "Rain"
+msgstr "Regn"
+
+msgid "Thunderstorm with rain"
+msgstr "Åska med regn"
+
+msgid "Thunderstorm"
+msgstr "Åska"
+
+msgid "Thunderstorm with drizzle"
+msgstr "Åska med duggregn"
+
+msgid "Snow"
+msgstr "Snö"
+
+msgid "Foggy"
+msgstr "Dimmigt"
+
+msgid "Unknown"
+msgstr "Okänt"
+
+# Relative time — future
+msgid "In {n}y"
+msgstr "Om {n}å"
+
+msgid "In {n}mo"
+msgstr "Om {n}mån"
+
+msgid "In {n}w"
+msgstr "Om {n}v"
+
+msgid "In {n}d"
+msgstr "Om {n}d"
+
+msgid "In {n}h"
+msgstr "Om {n}h"
+
+msgid "In {n}m"
+msgstr "Om {n}min"
+
+msgid "In {n}s"
+msgstr "Om {n}s"
+
+msgid "Now"
+msgstr "Nu"
+
+# Relative time — past
+msgid "{n}y ago"
+msgstr "För {n}å sen"
+
+msgid "{n}mo ago"
+msgstr "För {n}mån sen"
+
+msgid "{n}w ago"
+msgstr "För {n}v sen"
+
+msgid "{n}d ago"
+msgstr "För {n}d sen"
+
+msgid "{n}h ago"
+msgstr "För {n}h sen"
+
+msgid "{n}m ago"
+msgstr "För {n}min sen"
+
+msgid "{n}s ago"
+msgstr "För {n}s sen"
+
+msgid "Just now"
+msgstr "Just nu"
+
+# Loading screen
+msgid "Initializing..."
+msgstr "Startar..."
+
+msgid "Loading data..."
+msgstr "Hämtar data..."

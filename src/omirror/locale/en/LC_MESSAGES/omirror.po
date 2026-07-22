@@ -1,0 +1,103 @@
+# English translations for OMirror
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+# Weather descriptions
+msgid "Clear sky"
+msgstr "Clear sky"
+
+msgid "Few clouds"
+msgstr "Few clouds"
+
+msgid "Scattered clouds"
+msgstr "Scattered clouds"
+
+msgid "Cloudy"
+msgstr "Cloudy"
+
+msgid "Drizzle"
+msgstr "Drizzle"
+
+msgid "Light rain"
+msgstr "Light rain"
+
+msgid "Rain"
+msgstr "Rain"
+
+msgid "Thunderstorm with rain"
+msgstr "Thunderstorm with rain"
+
+msgid "Thunderstorm"
+msgstr "Thunderstorm"
+
+msgid "Thunderstorm with drizzle"
+msgstr "Thunderstorm with drizzle"
+
+msgid "Snow"
+msgstr "Snow"
+
+msgid "Foggy"
+msgstr "Foggy"
+
+msgid "Unknown"
+msgstr "Unknown"
+
+# Relative time — future
+msgid "In {n}y"
+msgstr "In {n}y"
+
+msgid "In {n}mo"
+msgstr "In {n}mo"
+
+msgid "In {n}w"
+msgstr "In {n}w"
+
+msgid "In {n}d"
+msgstr "In {n}d"
+
+msgid "In {n}h"
+msgstr "In {n}h"
+
+msgid "In {n}m"
+msgstr "In {n}m"
+
+msgid "In {n}s"
+msgstr "In {n}s"
+
+msgid "Now"
+msgstr "Now"
+
+# Relative time — past
+msgid "{n}y ago"
+msgstr "{n}y ago"
+
+msgid "{n}mo ago"
+msgstr "{n}mo ago"
+
+msgid "{n}w ago"
+msgstr "{n}w ago"
+
+msgid "{n}d ago"
+msgstr "{n}d ago"
+
+msgid "{n}h ago"
+msgstr "{n}h ago"
+
+msgid "{n}m ago"
+msgstr "{n}m ago"
+
+msgid "{n}s ago"
+msgstr "{n}s ago"
+
+msgid "Just now"
+msgstr "Just now"
+
+# Loading screen
+msgid "Initializing..."
+msgstr "Initializing..."
+
+msgid "Loading data..."
+msgstr "Loading data..."
