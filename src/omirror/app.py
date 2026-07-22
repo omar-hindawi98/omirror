@@ -14,7 +14,6 @@ import pygame
 
 from omirror import config
 from omirror.const import ACTIVITY_DATE_FMT, BLACK, IMAGES_DIR, SCREEN_SIZE, in_time_window
-from omirror.i18n import _, setup as i18n_setup
 from omirror.display import centered_text
 from omirror.display.renderer import Fader
 from omirror.display.widgets.activities import ActivitiesWidget
@@ -26,6 +25,8 @@ from omirror.display.widgets.overlay_text import OverlayTextWidget
 from omirror.display.widgets.quote import QuoteWidget
 from omirror.display.widgets.weather import WeatherWidget
 from omirror.hardware import rgb
+from omirror.i18n import _
+from omirror.i18n import setup as i18n_setup
 from omirror.widgets import activities, news, quotes
 from omirror.widgets import weather as weather_data
 

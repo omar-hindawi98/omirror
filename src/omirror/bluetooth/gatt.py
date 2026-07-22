@@ -9,8 +9,6 @@ import dbus.mainloop.glib
 import dbus.service
 
 from omirror import config, updater
-from omirror.hardware import wifi
-from omirror.i18n import setup as i18n_setup
 from omirror.bluetooth.adapters import (
     BLUEZ_SERVICE_NAME,
     DBUS_OM_IFACE,
@@ -24,6 +22,8 @@ from omirror.bluetooth.adapters import (
 from omirror.bluetooth.exceptions import InvalidArgsException, NotSupportedException
 from omirror.const import ACTIVITY_DATE_FMT, BLE_SERVICE_UUID
 from omirror.display import centered_text
+from omirror.hardware import wifi
+from omirror.i18n import setup as i18n_setup
 from omirror.widgets import activities
 
 log = logging.getLogger(__name__)

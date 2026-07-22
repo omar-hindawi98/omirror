@@ -4,6 +4,7 @@ import logging
 import dbus
 import dbus.service
 
+from omirror import config
 from omirror.bluetooth.adapters import (
     BLUEZ_SERVICE_NAME,
     DBUS_PROP_IFACE,
@@ -12,7 +13,6 @@ from omirror.bluetooth.adapters import (
     find_adapter,
 )
 from omirror.bluetooth.exceptions import InvalidArgsException
-from omirror import config
 from omirror.const import BLE_SERVICE_UUID
 
 log = logging.getLogger(__name__)

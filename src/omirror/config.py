@@ -1,3 +1,4 @@
+import contextlib
 import json
 import logging
 import threading
@@ -67,7 +68,5 @@ def _save():
         os.replace(tmp, SETTINGS_FILE)
     except OSError:
         log.exception("Failed to save settings")
-        try:
+        with contextlib.suppress(OSError):
             tmp.unlink(missing_ok=True)
-        except OSError:
-            pass
