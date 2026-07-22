@@ -16,8 +16,6 @@ MANIFEST
 venv/
 env/
 
-# uv
-uv.lock
 
 # Tools
 .ruff_cache/

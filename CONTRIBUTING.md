@@ -10,8 +10,8 @@ Thanks for taking the time to contribute! Here is everything you need to get sta
 ## Setup
 
 ```bash
-git clone https://github.com/omar-hindawi98/OMirror.git
-cd OMirror
+git clone https://github.com/omar-hindawi98/omirror.git
+cd omirror
 uv sync
 
 # Install pre-commit hooks (commitizen + ruff)
@@ -79,7 +79,7 @@ Rules are in `pyproject.toml` under `[tool.ruff]`. The short version:
 
 ## Submitting a PR
 
-1. Fork the repo and create a branch from `master`
+1. Fork the repo and create a branch from `main`
 2. Make your changes and run the linter
 3. Open a pull request — the PR template will guide you through the checklist
 4. CI will validate lint, format, tests, and commit messages automatically

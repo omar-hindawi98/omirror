@@ -1,6 +1,6 @@
 # OMirror
 
-[![CI](https://github.com/omar-hindawi98/OMirror/actions/workflows/ci.yml/badge.svg)](https://github.com/omar-hindawi98/OMirror/actions/workflows/ci.yml)
+[![CI](https://github.com/omar-hindawi98/omirror/actions/workflows/ci.yml/badge.svg)](https://github.com/omar-hindawi98/omirror/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -40,8 +40,8 @@ Pi-only extras (`RPi.GPIO`, `pigpio`, `dbus-python`) are in the `[pi]` optional 
 
 ```bash
 # Clone and enter the repo
-git clone https://github.com/omar-hindawi98/OMirror.git
-cd OMirror
+git clone https://github.com/omar-hindawi98/omirror.git
+cd omirror
 
 # Install (add --extra pi on Raspberry Pi)
 uv sync
